@@ -5,26 +5,26 @@
     <title>魔镜</title>
     <style type="text/css">
         p {
-            margin: 1% auto;
+            margin: 0 auto 0 auto;
             max-width: 60%;
             font-size: 2em;
+            line-height: 2em;
+            color: white;
+            text-align: center;
         }
 
         body {
+
+        }
+
+        div {
+            display: block;
             background-color: #68CDD5;
         }
 
-        #div {
-            display: table-cell;
-            vertical-align: middle;
-            margin: 0 15% 0 15%;
-            backgroud: red;
-            border: red;
-        }
-
         .left {
-            float: left;
             display: block;
+            float: left;
             width: 50%;
         }
 
@@ -33,35 +33,89 @@
             width: 50%;
         }
 
+        span.left {
+            float: left;
+            width: 10%;
+        }
+
+        span {
+            text-align: center;
+        }
+
+        span.right {
+            float: right;
+            width: 10%;
+        }
+
+        span.center {
+        }
         .center {
+            float: left;
             display: block;
+        }
+
+        .article {
+            margin: 0 3%;
+            background-color: #68CDD5;
+        }
+
+        img {
+            align: center;
+            max-width: 84px;
+            max-height: 84px;
+        }
+
+        .head {
+            padding: 3% 0;
+            height: 3%;
+            background-color: #22292C;
+            color: white;
+        }
+
+        .status-bar {
+
+            padding: 1% 0;
+            height: 1%;
+            background-color: #282828;
+            color: white;
         }
     </style>
 </head>
 <body>
-<div CLASS="HEAD">
+<div CLASS="status-bar">
 
-    <div>AM</div>
-    <div>魔镜</div>
+    <span class="left">Applidium</span>
+    <!span class="center">11:27AM<!/span>
+    <span class="right">100%</span>
+</div>
+<div CLASS="head">
+    <span class="left">返回</span>
+    <!span class="center"><span>魔镜</span><!/span>
+    <span class="right">0 0 0</span>
+</div>
 
-</div>
-<div class="left">箭头</div>
-<br/>
-<div class="center">
-    <img src="image/整合透底.png"/>
-</div>
-<div class="center">
-    <p>葡萄藤轻游戏专注于桌游领域，提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以下线下聚会桌游道具</p>
-</div>
-<div class="left">
-    <div class="ellipse"><img src="image/人头.png" ; align="center"/></div>
-    <br/>
-    <p>人口</p>
-</div>
-<div class="right">
-    <div class="ellipse"><img src="image/葡萄藤logo.png"/></div>
-    <br/>
-    <p>logo</p>
+<div>
+    <div class="article">
+        <div>
+            <div class="left"><img src="image/记录页_03.png" ; align="center"/></div>
+        </div>
+        <br/>
+        <div class="center">
+            <p><img src="image/整合透底.png"/></p>
+            <br/>
+            <p>葡萄藤轻游戏专注于桌游领域，提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以下线下聚会桌游道具</p>
+        </div>
+        <div class="left">
+            <p><!div class="ellipse"><img src="image/人头.png" ; align="center"/><!/div>
+                <br/>
+            <p>209560933</p>
+        </div>
+        <div class="right">
+            <p><!div class="ellipse"><img src="image/葡萄藤logo.png"/><!/div>
+                <br/>
+            <p>BJPTTeng</p>
+        </div>
+    </div>
 </div>
 </body>
 
