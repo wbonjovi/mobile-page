@@ -1,0 +1,42 @@
+p {
+    font-size: 2rem;
+    color: white;
+}
+
+body {
+
+    background-color: #68CDD5;
+}
+
+div {
+    display: block;
+}
+
+.left {
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+.right {
+    float: right;
+    width: 20%;
+}
+
+.center {
+    text-align: center;
+}
+
+.article {
+    margin: 0 12%;
+    background-color: #68CDD5;
+}
+
+img {
+    max-width: 84px;
+    max-height: 84px;
+}
+
+.block {
+    padding: 50px 0;
+}
